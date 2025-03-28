@@ -17,7 +17,7 @@ export default function Event(props) {
         <>
             <h4>{event.name}</h4>
             <p>{event.date}</p>
-            <p>Artist : {event.artist.name}</p>
+            {/*<p>Artist : {event.artist.name}</p>*/}
         </>
     )
 }
