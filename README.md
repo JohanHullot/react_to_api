@@ -1,12 +1,35 @@
-# React + Vite
+# react_to_api
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pour prendre l'api du projet SYMPHONY
 
-Currently, two official plugins are available:
+# Requis
+NodeJs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Utilisation
 
-## Expanding the ESLint configuration
+Dans l'invite de commande (CMD)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Copiez l'url de l'endroit ou vous voulez cloner le git :
+```bash
+cd C:\VotreDossier
+```
+- Clonez le dossier git :
+```bash
+git clone https://github.com/JohanHullot/react_to_api.git
+```
+
+- Entrer dans le dossier Vapeur
+```bash
+cd react_to_api
+```
+
+- Installez les dépendances : 
+```bash
+npm i
+```
+
+- Vous pouvez maintenant démarrer le serveur : 
+```bash
+npm run dev
+```
+- Le serveur en marche, lancez l'url indiqué par cmd sur votre navigateur. L'url doit ressembler à cela approximativement http://localhost:5174/.
